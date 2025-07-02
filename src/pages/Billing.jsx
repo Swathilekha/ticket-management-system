@@ -53,7 +53,7 @@ export default function Billing() {
               .join(', ')}, and the current month is ${current.total_amount}. What could be the reason for the hike in the latest bill?`;
 
             try {
-              const result = await chatWithOpenAI[
+              const result = await chatWithOpenAI([
                 {
                   role: 'system',
                   content: 'You are a billing analyst. Explain bill hikes simply.'
