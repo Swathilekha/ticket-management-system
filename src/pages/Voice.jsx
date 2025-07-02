@@ -1,6 +1,6 @@
 import { useRef, useState } from 'react';
 import { supabase } from '../supabase';
-import { chatWithOpenAI } from '../callOpenApi.js'; // ✅ CORRECT
+import { chatWithOpenAI } from '../callOpenAi.js'; // ✅ CORRECT
 
 
 export default function Voice() {
