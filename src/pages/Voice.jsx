@@ -50,7 +50,7 @@ ETA: <number>
 
 Complaint: ${inputText}`;
 
-      const response = await chatWithOpenAi([
+      const response = await chatWithOpenAI([
         {
           role: 'system',
           content: 'You are a customer support agent.'
