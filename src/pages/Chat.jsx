@@ -18,7 +18,7 @@ export default function Chat() {
       const newContext = context + `User: ${input}\n`;
       setContext(newContext);
 
-      const openaiResponse = await chatWithOpenAI([
+      const openaiResponse = await chatWithOpenAi([
         {
           role: 'system',
           content: `You are a support assistant. Gather enough information about the user's complaint.
