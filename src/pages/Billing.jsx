@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { supabase } from '../supabase';
-import { chatWithOpenAI } from '../callOpenApi.js'; // ✅ correct
+import { chatWithOpenAI } from '../callOpenAi.js'; // ✅ correct
 
 import {
   BarChart,
