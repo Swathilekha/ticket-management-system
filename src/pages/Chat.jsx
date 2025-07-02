@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { supabase } from '../supabase';
-import { chatWithOpenAI } from '../callOpenAi.js';
+import { chatWithOpenAI } from '../callOpenAi.js'; // ✅ CORRECT
+
 
 export default function Chat() {
   const [messages, setMessages] = useState([]);
